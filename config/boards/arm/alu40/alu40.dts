@@ -69,7 +69,7 @@
 		label = "ENCODER_ONE";
 		a-gpios = <&gpio0 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
 		b-gpios = <&gpio1 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-		steps = <50>;
+		steps = <100>;
 	};
 
 	leds {
