@@ -57,10 +57,17 @@
                 &kp TAB    &kp Q      &kp W     &kp E     &kp R  &kp T      &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BSPC
                 &kp ESC    &kp A      &kp S     &kp D     &kp F  &kp G      &kp H      &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
                 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V  &kp B      &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RET
-                &kpmo 1 F13  &kp LCTRL  &kp LGUI  &kp LALT  &mo 1  &kp SPACE  &kp SPACE  &mo 2  &kp LEFT   &kp DOWN &kp UP    &kp RIGHT
+                
+                // &kpkp TAB F13    &kpkp Q F14      &kpkp W F15     &kpkp E F16     &kpkp R F17  &kpkp T F18       &kpkp Y F19      &kpkp U F20  &kpkp I F21      &kpkp O F22    &kpkp P F23     &kpkp BSPC F24
+                // &kpkp ESC LC(F13)    &kpkp A LC(F14)      &kpkp S LC(F15)     &kpkp D LC(F16)     &kpkp F LC(F17)  &kpkp G LC(F18)      &kpkp H LC(F19)      &kpkp J LC(F20)  &kpkp K LC(F21)      &kpkp L LC(F22)    &kpkp SEMI LC(F23)  &kpkp SQT LC(F24)
+                // &kpkp LSHFT LS(F13)  &kpkp Z LS(F14)      &kpkp X LS(F15)     &kpkp C LS(F16)     &kpkp V LS(F17)  &kpkp B LS(F18)      &kpkp N LS(F19)      &kpkp M LS(F20)  &kpkp COMMA LS(F21)  &kpkp DOT LS(F22)  &kpkp FSLH LS(F23)  &kpkp RET LS(F24)
+
+                &kpkp W F13   &kp LCTRL  &kp LGUI  &kp LALT  &mo 1  &kp SPACE  &kp SPACE  &mo 2  &kp LEFT   &kp DOWN &kp UP    &kp RIGHT
+                
                 //&kp LC(B)
-                //&kpkp LC(B) F13 'ctrl+b, F13'
-                //&mo 1
+                // &kpkp LC(B) F13 'ctrl+b, F13'
+                // &kpmo 1 F13
+                // &mo 1
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
