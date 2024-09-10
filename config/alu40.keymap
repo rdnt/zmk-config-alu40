@@ -27,7 +27,7 @@
         kpmo: kp_mo_macro {
             compatible = "zmk,behavior-macro-two-param";
             wait-ms = <0>;
-            tap-ms = <10>;
+            tap-ms = <1>;
             #binding-cells = <2>;
             bindings
                 = <&macro_tap &kp F13>
