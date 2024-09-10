@@ -32,7 +32,7 @@
                 = <&macro_tap &kp F13>
                 , <&macro_press &mo 1>
                 , <&macro_pause_for_release>
-                , <&macro_release &mo>
+                , <&macro_release &mo 1>
         };
     };
 };
