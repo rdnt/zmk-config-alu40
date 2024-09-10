@@ -17,10 +17,10 @@
             tap-ms = <0>;
             #binding-cells = <2>;
             bindings
-                = <&macro_param_2to1>
-                , <&macro_wait_time 1>
+                = <&macro_param_1to1>
                 , <&macro_tap &kp MACRO_PLACEHOLDER>
-                , <&macro_param_1to1>
+                , <&macro_wait_time 1>
+                , <&macro_param_2to1>
                 , <&macro_tap &kp MACRO_PLACEHOLDER>
                 ;
         };
