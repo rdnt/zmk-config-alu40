@@ -1,0 +1,4 @@
+---
+include:
+  - board: alu40
+    snippet: zmk-usb-logging
